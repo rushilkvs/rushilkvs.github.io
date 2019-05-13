@@ -1,0 +1,126 @@
+<!DocType>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="icon" href="images/12.png">
+	<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Fruktur|Mogra|Pacifico" rel="stylesheet">
+  	<title>Hobbies</title>
+  	<style>
+  	*{
+  		margin: 0;
+ 		  padding: 0;
+  	}
+    .blocks{
+      background-color: black;
+      margin: 20px;
+      padding: 20px;
+      font-family:'Gugi'; 
+    }
+    nav a:link {
+      text-decoration: none;
+      color: #ccffff;
+      background-color: none;
+	    margin:10px;
+      padding: 10px;
+    }
+    nav a:visited {
+      text-decoration: none;
+      color: #ccffff;
+      background-color: none;
+	    margin:10px;
+      padding: 10px;
+    }
+    nav a:hover,active{
+      color: #ff5050;
+    }
+    body {
+      background-image: url("images/123.jpg") ;
+      background-size: 100%;
+      background-blend-mode: overlay;
+      background-position: center; 
+    }
+    header{
+      background-color: #0006 ;    	
+    }
+    nav {
+      text-align: left; 
+      font-size: 30; 
+      padding:10px; 
+      font-family:'Gugi';
+    }
+    h1 {
+      font-family:'Fruktur'; 
+      font-size: 72px; 
+      color: #ff5050; 
+      text-align-last: center; 
+      opacity: 0.95;
+      padding: 10px;
+      margin: 10px;
+      margin-left: 300px;
+      margin-right: 300px;
+      background-color: #0003;
+      border-radius: 25px;
+      animation-name: txt;
+      animation-duration: 2s;
+    }
+    h1:hover{
+      font-size: 76px;
+    }
+    div.gallery {
+      margin: 25px;
+      float: left;
+      width: 320px; 
+      border-radius: 20px;   
+    }
+    div.gallery:hover {
+      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    div.desc {
+      padding: 15px;
+      text-align: center;
+      background-color: #fff9;
+      border-radius: 0px 0px 15px 15px;
+      font-family: "pacifico";
+      font-size: 25px;
+    }
+    img.gallery {
+      width: 320px;
+      border-radius: 15px 15px 0px 0px;
+    }
+    @keyframes txt {
+    0%   {opacity: 0; }
+    100% {opacity: 1; }
+    }
+    </style>
+</head>
+<body style="align-items: center; " >
+<header>  
+<nav> 
+  <a href="home.html">Home</a> 
+  <a href="aboutme.html">About Me</a> 
+  <a href="hobbies.html">Hobbies</a>  
+  <a href="contactme.html">Contact Me</a>   
+</nav>
+</header>
+<h1> 
+  My Hobbies & Interests
+</h1>
+<div class="gallery">
+  <img class="gallery" src="images/chess.jpg">
+  <div class="desc">Playing chesss</div>
+</div>
+<div class="gallery">
+  <img class="gallery" src="images/photo.jpg">
+  <div class="desc">Photography</div>
+</div>
+<div class="gallery">
+  <img class="gallery" src="images/startup.jpg">
+  <div class="desc">Interested in Startups</div>
+</div>
+<div class="gallery">
+  <img class="gallery" src="images/code.jpg">
+  <div class="desc">Coding</div>
+</div>
+</body>
+</html>

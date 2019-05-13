@@ -1,0 +1,88 @@
+<!DocType>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="icon" href="images/12.png">
+	<link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Fruktur|Mogra|Pacifico" rel="stylesheet">
+  	<title>Portfolio</title>
+  	<style>
+  	*{
+  		margin: 0;
+ 		padding: 0;
+  	}
+    .blocks{
+      background-color: black;
+      margin: 20px;
+      padding: 20px;
+      font-family:'Gugi'; 
+    }
+    nav a:link {
+      text-decoration: none;
+      color: orange;
+      background-color: none;
+	  margin:10px;
+      padding: 10px;
+    }
+    nav a:visited {
+      text-decoration: none;
+      color: orange;
+      background-color: none;
+	  margin:10px;
+      padding: 10px;
+    }
+    nav a:hover,active{
+      color: #f2f2f2;
+    }
+    body {
+      background-image: url("images/5.jpg") ;
+      background-size: 100%;
+      background-blend-mode: overlay;
+    }
+    nav {
+      text-align: left; 
+      font-size: 30; 
+      padding:10px; 
+      background-color: #0006 ;
+      font-family:'Gugi';
+	  position: span;
+    }
+    p {
+    	font-family:'Fruktur';
+    	font-size: 96px;
+    	color: tomato;
+    	text-align-last: center;
+    	opacity: 0.9;
+    	padding: 20px;
+    	margin: 20px;
+    	animation-name: welcome;
+  	 	animation-duration: 10s;
+  		animation-iteration-count: infinite;
+  		animation-direction:alternate;
+    }
+    p:hover {
+    	font-size: 100px;
+    }
+    @keyframes welcome {
+  	0%   {color:red; }
+  	25%  {color:yellow; }
+  	50%  {color:lightgreen; }
+  	75%  {color:blue; }
+  	100% {color:purple; }
+	}
+    </style>
+</head>
+<body><!style="width: 100%" >  
+<header>
+<nav> 
+  <a href="home.html">Home</a> 
+  <a href="aboutme.html">About Me</a> 
+  <a href="hobbies.html">Hobbies</a>  
+  <a href="contactme.html">Contact Me</a>   
+</nav>
+</header>
+<p> 
+  Welcome to My First Webpage
+</p>
+</body>
+</html>
